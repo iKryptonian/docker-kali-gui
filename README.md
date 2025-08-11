@@ -22,7 +22,9 @@ Supports **AMD64** and **ARM64** (including Apple Silicon).
 ### **1. Clone the repository**
 ```bash
 git clone https://github.com/iKryptonian/kali-gui.git
-cd kali-gui-novnc
+cd kali-gui-novnc 
+###
+
 ---
 ## 2. Build the image**
 

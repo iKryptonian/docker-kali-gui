@@ -23,8 +23,8 @@ Supports **AMD64** and **ARM64** (including Apple Silicon).
 ```bash
 git clone https://github.com/iKryptonian/kali-gui.git
 cd kali-gui-novnc
-
-### **2. Build the image**
+---
+## 2. Build the image**
 
 **For AMD64 (Intel/AMD PCs):**
 ```bash

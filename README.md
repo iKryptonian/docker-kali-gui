@@ -24,6 +24,11 @@ Supports **AMD64** and **ARM64** (including Apple Silicon).
 git clone https://github.com/iKryptonian/kali-gui.git
 cd kali-gui-novnc
 
+# For AMD64 (Intel/AMD PCs)
+docker buildx build --platform linux/amd64 -t kaligui:latest .
+
+# For ARM64 (Apple M1/M2, Raspberry Pi)
+docker buildx build --platform linux/arm64 -t kaligui:latest .
 
 
 ### 2. Build the image

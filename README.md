@@ -21,7 +21,7 @@ Supports both **AMD64** and **ARM64** (including Apple Silicon Macs).
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/iKryptonian/docker-kali-gui.git
+git clone https://github.com/iKryptonian/docker-kali-gui.git 
 cd kali-gui
 
 ---

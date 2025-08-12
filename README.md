@@ -26,9 +26,10 @@ cd kali-gui-novnc
 
 2. Build the image
 ```bash
-For AMD64 (Intel/AMD PCs):
+For AMD64 (Intel/AMD PCs)
 docker buildx build --platform linux/amd64 -t kaligui:latest .
-For ARM64 (Apple M1/M2, Raspberry Pi):
+
+For ARM64 (Apple M1/M2, Raspberry Pi)
 docker buildx build --platform linux/arm64 -t kaligui:latest .
 
 3. Run the container
